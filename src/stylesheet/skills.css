@@ -4,3 +4,8 @@
     margin: auto;
 }
 
+.image:hover{
+    height: 150px;
+    width: 170px;
+    margin: auto;
+}

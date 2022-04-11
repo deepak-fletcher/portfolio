@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import LandingPage from './components/LandingPage';
+// import Skills from './components/LandingPage';
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

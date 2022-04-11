@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
         <NavBar></NavBar>
-        <LandingPage></LandingPage>
-        <Skills></Skills>
+        <LandingPage class="m-10 p-10"></LandingPage>
+        <Skills class="m-9 p-10"></Skills>
     </div>
   );
 }

@@ -2,8 +2,8 @@
     height: 20vh;
 }
 .photo {
-    height: 25vw;
-    width: 25vw;
+    height: 28vw;
+    width: 28vw;
     margin: auto;
   }
 
@@ -13,3 +13,6 @@
     margin: auto;
   }
 
+.fade-in {
+    transition: opacity 1s ease;
+}
