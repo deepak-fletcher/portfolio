@@ -16,13 +16,13 @@ import FadeIn from "react-fade-in";
  
 
 let description = {
-  python : "Even though my current job has more of java and less of python related tasks, I have worked on python since 2019. I have worked on a number of projects using python, both related to and not related to machine learning. Working on machine related tasks with python is something that has always been very interesting as we get to see the macine learn things we want it to and ultimately perfom those tastks perfectly on its own.",
-  js : "Even though I've used React from around 2019, I had ",
-  java : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-  c : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-  react :"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-  springboot :"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-  html : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+  python : "I have used python since 2017, and can do regular programming using python with ease. I have used python for a variety of machine learning related tasks througout college.",
+  js : "I have worked on JS since 2019, but it wasnt until 2020 that I learnt the proper language JS. I have worked on a few User intrfaces using REACT where js is used in abundance.",
+  java : "Having used Java since 2015, I have worked on a number of spheres using java(Spring boot, Android app development, Advanced Java). I have also recieved my training in advanced java and spring boot on joining Cognizant.",
+  c : "I have used C for basic programming and not more than that.",
+  react :"I have used reactjs and react native since 2020 but its not until recently that i had starting understanding the basic concepts underlying in react, After which i have created the front end for a project that was done during training, and alos the portfolio app that you are viewing now.",
+  springboot :"I had solely learnt Spring Boot as a part of the training program at cognizant. Spring boot provides easy integration with react and all REST API's, I would like to explore other backend services in the future too like nodejs",
+  html : "Even though its not the first language i learnt to create an user interface with, its by far the most simplest one. I have been using html and css where ever i go ever since",
   css : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
   sql : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
 }
