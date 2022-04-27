@@ -17,11 +17,11 @@ export const LandingPage = () => {
   },[]);
   return (
     <div class=" bg-[#000000]">
-      <div class="flex flex-col">
+      <div class=" flex flex-col">
       <FadeIn delay={500} transitionDuration={1000}>
         <div class="m-10 p-10 flex md:flex-row flex-col">
           <div className="welcomeText" class="basis-1/2">
-            <h1 data-aos="fade-up" class="text-3xl md:text-4xl lg:text-6xl col-span-1 text-[#FFFFFF]">
+            <h1 data-aos="fade-up" class="mt-8 text-3xl md:text-4xl lg:text-6xl col-span-1 text-[#FFFFFF]">
               Hi, I'm Deepak Rao Fletcher!
             </h1>
             <br></br>
@@ -52,12 +52,12 @@ export const LandingPage = () => {
 
             <p data-aos="fade-up"
               className="fade-in"
-              class="mt-1 text-sm md:text-lg lg:text-xl align-middle p-10 text-[#FFFFFF]"
+              class="mt-10 text-sm md:text-lg lg:text-xl align-middle p-10 text-[#FFFFFF]"
             >
-              "I’m a Tech Enthusiast who ❤️ to Code, a Fast Learner and a gamer.
-              <br></br>I like creating new web applications, I like to explore
+              I’m a Tech Enthusiast who ❤️ to Code, a Fast Learner and a gamer.
+              <br></br><br></br>I like creating new web applications, I like to explore
               more of machine learning and how things work in that front and
-              love designing wonderful User Interfaces.<br></br>I am a gamer and
+              love designing wonderful User Interfaces.<br></br><br></br>I am a gamer and
               a tech enthusiast by night, I follow most consumer tech and also
               play a lot of battle royales.
             </p>

@@ -47,41 +47,41 @@ export const Skills = () => {
   return (
     <div class="bg-[#000000]">
         
-        <div data-aos="fade-up" class=" flex flex-col">
+        <div data-aos="fade-up" class="mt-10 flex flex-col">
         
         
-        <p data-aos="fade-up" class="mt-9 text-3xl mt-10 md:text-2xl lg:text-4xl col-span-1 text-[#FFFFFF]">Programming Languages</p>
+        <p data-aos="fade-up" class="mt-10 text-3xl mt-10 md:text-2xl lg:text-4xl col-span-1 text-[#FFFFFF]">Programming Languages</p>
         <div  class="m-5 p-10 flex md:flex-row flex-col" >
           <div data-aos="fade-up" className="skills" class="basis-1/4 m-9">
-              <img class="m-5 p-9 align-middle" id="python"  className="image" src={python} onClick={(e)=>showModal(e)}/>
+              <img class="mb-10 mt-10 ml-5 mr-5 p-9 align-middle" id="python"  className="image" src={python} onClick={(e)=>showModal(e)}/>
           </div>
           <div data-aos="fade-up" className='skills' class="basis-1/4 m-9">
-              <img class="m-5 p-9 align-middle" id="js" className="image" src={js} onClick={(e)=>showModal(e)}></img>
+              <img class="mb-10 mt-10 ml-5 mr-5 p-9 align-middle" id="js" className="image" src={js} onClick={(e)=>showModal(e)}></img>
           </div>
           <div data-aos="fade-up" className='skills' class="basis-1/4 m-9">
-              <img class="m-5 p-9 align-middle" id="java" className="image" src={java} onClick={(e)=>showModal(e)}></img>
+              <img class="mb-10 mt-10 ml-5 mr-5 p-9 align-middle" id="java" className="image" src={java} onClick={(e)=>showModal(e)}></img>
           </div>
           <div data-aos="fade-up" className='skills' class="basis-1/4 m-9">
-              <img class="m-5 p-9 align-middle" id="c" className="image" src={c} onClick={(e)=>showModal(e)}></img>
+              <img class="mb-10 mt-10 ml-5 mr-5 p-9 align-middle" id="c" className="image" src={c} onClick={(e)=>showModal(e)}></img>
           </div>
         </div>
         <p data-aos="fade-up" class="text-3xl md:text-2xl lg:text-4xl col-span-1 text-[#FFFFFF]">Frameworks</p>
         <div  class="m-5 p-10 flex md:flex-row flex-col">
           <div data-aos="fade-up" className="skills" class="basis-1/4 m-9">
-              <img class="m-5 p-9 align-middle" id="react" className="image" src={react} onClick={(e)=>showModal(e)}/>
+              <img class="mb-10 mt-10 ml-5 mr-5 p-9 align-middle" id="react" className="image" src={react} onClick={(e)=>showModal(e)}/>
           </div>
           <div data-aos="fade-up" className='skills' class="basis-1/4 m-9">
-              <img class="m-5 p-9 align-middle" id="springboot" className="image" src={springboot} onClick={(e)=>showModal(e)}></img>
+              <img class="mb-10 mt-10 ml-5 mr-5 p-9 align-middle" id="springboot" className="image" src={springboot} onClick={(e)=>showModal(e)}></img>
           </div>
           <div data-aos="fade-up" className='skills' class="basis-1/4 m-9">
-              <img class="m-5 p-9 align-middle" id="html" className="image" src={html} onClick={(e)=>showModal(e)}></img>
+              <img class="mb-10 mt-10 ml-5 mr-5 p-9 align-middle" id="html" className="image" src={html} onClick={(e)=>showModal(e)}></img>
           </div>
           <div data-aos="fade-up" className='skills' class="basis-1/4 m-9">
-              <img class="m-5 p-9 align-middle" id="css" className="image" src={css} onClick={(e)=>showModal(e)}></img>
+              <img class="mb-10 mt-10 ml-5 mr-5 p-9 align-middle" id="css" className="image" src={css} onClick={(e)=>showModal(e)}></img>
           </div>
         </div>
         <p data-aos="fade-up" class="text-3xl md:text-2xl lg:text-4xl col-span-1 text-[#FFFFFF]">Databases</p>
-        <div  class="m-5 p-10 flex md:flex-row flex-col">
+        <div  class="mb-10 mt-10 ml-5 mr-5 p-10 flex md:flex-row flex-col">
           <div data-aos="fade-up" className="skills" class="basis-[100%] m-9">
               <img class="m-5 p-9 align-middle" id="sql"  className="image" src={sql} onClick={(e)=>showModal(e)}/>
           </div>

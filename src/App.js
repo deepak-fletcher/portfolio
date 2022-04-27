@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
         <NavBar></NavBar>
-        <LandingPage class="m-10 p-10"></LandingPage>
+        <LandingPage></LandingPage>
         <Skills class="m-9 p-10"></Skills>
     </div>
   );
