@@ -2,8 +2,8 @@
     height: 20vh;
 }
 .photo {
-    height: 28vw;
-    width: 28vw;
+    height: 350px;
+    width: 350px;
     margin: auto;
   }
 
@@ -15,4 +15,12 @@
 
 .fade-in {
     transition: opacity 1s ease;
+}
+
+@media screen and (max-width: 600px) {
+  .photo {
+    height: 250px;
+    width: 250px;
+    margin: auto;
+  }
 }

@@ -19,7 +19,7 @@ export const LandingPage = () => {
     <div class=" bg-[#000000]">
       <div class=" flex flex-col">
       <FadeIn delay={500} transitionDuration={1000}>
-        <div class="m-10 p-10 flex md:flex-row flex-col">
+        <div class="m-10 p-10 flex flex-col">
           <div className="welcomeText" class="basis-1/2">
             <h1 data-aos="fade-up" class="mt-8 text-3xl md:text-4xl lg:text-6xl col-span-1 text-[#FFFFFF]">
               Hi, I'm Deepak!
@@ -34,8 +34,8 @@ export const LandingPage = () => {
           </div>
           <div class="basis-1/2"></div>
         </div>
-        <div class="p-10 flex md:flex-row  flex-col">
-          <div class="basis-1/2 align-middle">
+        <div class="p-10 flex  flex-col">
+          <div class="align-middle">
             <img data-aos="fade-up"
               class="mt-1 p-20 align-middle"
               className="photo"

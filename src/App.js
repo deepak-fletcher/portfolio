@@ -8,7 +8,8 @@ function App() {
     <div className="App">
         <NavBar></NavBar>
         <LandingPage></LandingPage>
-        <Skills class="m-9 p-10"></Skills>
+        <Skills class="m-9 p-10">
+        </Skills>
         <Timeline></Timeline>
     </div>
   );
