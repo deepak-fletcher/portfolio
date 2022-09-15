@@ -29,10 +29,10 @@ const Footer = () => {
             </p>
             <div class="flex w-[100px] m-auto flex-row">
             <a class="m-auto" href="https://github.com/deepak-fletcher">
-                <img class="w-[15px] h-[15px] m-auto" id="github" className="image" src={github} ></img>
+                <img class="w-[15px] h-[15px] m-auto" id="github" src={github} ></img>
             </a>
             <a class="m-auto" href="https://www.linkedin.com/in/deepak-fletcher/">
-                <img class="w-[15px] h-[15px] m-auto" id="linkedin" className="image" src={linkedin} ></img>
+                <img class="w-[15px] h-[15px] m-auto" id="linkedin" src={linkedin} ></img>
             </a>
             </div>
             
