@@ -22,7 +22,7 @@ export const LandingPage = () => {
         <div class="m-10 p-10 flex md:flex-row flex-col">
           <div className="welcomeText" class="basis-1/2">
             <h1 data-aos="fade-up" class="mt-8 text-3xl md:text-4xl lg:text-6xl col-span-1 text-[#FFFFFF]">
-              Hi, I'm Deepak Rao Fletcher!
+              Hi, I'm Deepak!
             </h1>
             <br></br>
             <h1 data-aos="fade-up"

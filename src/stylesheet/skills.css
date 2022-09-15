@@ -1,11 +1,11 @@
 .image{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     margin: auto;
 }
 
 .image:hover{
-    height: 150px;
-    width: 170px;
+    height: 100px;
+    width: 105px;
     margin: auto;
 }
