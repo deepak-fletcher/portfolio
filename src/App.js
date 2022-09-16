@@ -1,17 +1,35 @@
 import './App.css';
+import { React, useState } from "react";
 import NavBar from './components/NavBar';
-import { LandingPage } from './components/LandingPage';
-import {Skills} from './components/Skills';
-import {Timeline} from './components/Timeline';
+import Home from './components/Home';
 import Footer from './components/Footer';
+import Hobbies from './components/Hobbies';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Socials from './components/Socials';
+
 function App() {
   return (
     <div className="App">
+        <Router>
         <NavBar></NavBar>
-        <LandingPage></LandingPage>
-        <Skills class="m-9 p-10">
-        </Skills>
-        <Timeline></Timeline>
+          <Routes>
+            <Route
+                exact
+                path="/"
+                element={<Home></Home>}
+            ></Route>
+            <Route
+                exact
+                path="/hobbies"
+                element={<Hobbies></Hobbies>}
+            ></Route>
+            <Route
+                exact
+                path="/socials"
+                element={<Socials></Socials>}
+            ></Route>
+          </Routes>
+        </Router>
         <Footer></Footer>
     </div>
   );

@@ -13,14 +13,8 @@ const images = [
 
 const Hobbies = () => {
   return (
-    <div>
-        <SimpleImageSlider
-        width={896}
-        height={504}
-        images={images}
-        showBullets={true}
-        showNavs={true}
-      />
+    <div class="p-9 h-screen w-full">
+        <p class="text-white  text-2xl mt-[50%]">Hobbies coming soon</p>
     </div>
   )
 }
