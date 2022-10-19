@@ -1,0 +1,13 @@
+.parallax-image{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.parallax-image > img{
+    object-fit: cover;
+    margin-left: 0px;
+    margin-right: 0px;
+}

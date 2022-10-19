@@ -13,6 +13,7 @@
     "react-fade-in": "^2.0.1",
     "react-icons": "^4.3.1",
     "react-in-viewport": "^1.0.0-alpha.26",
+    "react-parallax": "^3.5.1",
     "react-router-dom": "^6.4.0",
     "react-scripts": "5.0.0",
     "react-simple-image-slider": "^2.4.1",

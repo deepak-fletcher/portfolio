@@ -1,20 +1,16 @@
 import React from 'react';
 import SimpleImageSlider from "react-simple-image-slider";
-
-const images = [
-  { url: "images/1.jpg" },
-  { url: "images/2.jpg" },
-  { url: "images/3.jpg" },
-  { url: "images/4.jpg" },
-  { url: "images/5.jpg" },
-  { url: "images/6.jpg" },
-  { url: "images/7.jpg" },
-];
+import Gaming from './Gaming';
+import Gamingrig from '../assets/hobby3.jpg'
 
 const Hobbies = () => {
   return (
-    <div class="p-9 h-screen w-full">
-        <p class="text-white  text-2xl mt-[50%]">Hobbies coming soon</p>
+    <div class=" w-full">
+        <div class="mt-16 text-white fomt-xxl w-full h-400px">
+          This page is under development
+        </div>
+        {/* <p class="text-white  text-2xl mt-[100px]">Hobbies coming soon</p> */}
+        <Gaming></Gaming>
     </div>
   )
 }

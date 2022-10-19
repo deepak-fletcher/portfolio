@@ -29,8 +29,9 @@ function App() {
                 element={<Socials></Socials>}
             ></Route>
           </Routes>
+          <Footer></Footer>
         </Router>
-        <Footer></Footer>
+        
     </div>
   );
 }

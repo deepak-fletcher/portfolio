@@ -4,13 +4,13 @@ import linkedin from '../assets/linkedin.png';
 
 const Footer = () => {
   return (
-    <div class="w-[100%] h-[100px] border-y-2 bg-[#000000] flex flex-row">
+    <div class="h-[100px] border-y-2 bg-[#000000] flex flex-row">
         <p class="text-white m-auto w-[25%] font-bold text-xs">Portfolio of Deepak Rao Fletcher</p>
         <div class="w-[50%] m-auto">
             <p class="text-white font-bold text-xs">
                 Designed using
             </p>
-            <span class="m-auto mt-2 w-[150px] flex flex-row">
+            <span class="m-auto mt-2 w-[100px] flex flex-row">
             <p class="text-white m-auto font-bold  text-[10px]">
                 ReactJS
             </p>
@@ -24,7 +24,7 @@ const Footer = () => {
             
         </div>
         <div class="w-[25%] m-auto">
-            <p class="text-white m-auto w-[100px] mb-2 text-xs font-bold">
+            <p class="text-white m-auto w-[80px] mb-2 text-xs font-bold">
                 Find me on
             </p>
             <div class="flex w-[100px] m-auto flex-row">

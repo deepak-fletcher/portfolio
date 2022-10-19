@@ -24,12 +24,12 @@ const NavBar = () => {
   }
   return (
     <div className="navbar" class="h-16 bg-[#000000] fixed w-full z-10 top-0 flex flex-row-reverse overflow-auto">
-            <p class="text-[#ffffff] pl-1 pr-1  pt-6 pb-6 mr-5 text-xs" onClick={onclickSocials}>Socials</p>
-            <p class="text-[#ffffff] pl-3 md:pl-10 pr-.5 pt-5 pb-5"  onClick={onclickSocials}><MdShare size="20px"></MdShare></p>
-            <p class="text-[#ffffff] pl-1 pr-1  pt-6 pb-6 text-xs" onClick={onclickHobbies}>Hobbies</p>
-            <p class="text-[#ffffff] pl-3 md:pl-10 pr-.5 pt-5 pb-5" onClick={onclickHobbies}><MdBuild size="20px"></MdBuild></p>
-            <p class="text-[#ffffff] pl-1 pr-1 pt-6 pb-6 text-xs" onClick={onclickHome}>Home</p> 
-            <p class="text-[#ffffff] pl-3 md:pl-10 pr-.5 pt-5 pb-5" onClick={onclickHome}><MdHome size="20px"></MdHome></p>
+            <p class="text-[#ffffff] pl-1 pr-1  pt-6 pb-6 mr-5 text-xs hover:cursor-pointer" onClick={onclickSocials}>Socials</p>
+            <p class="text-[#ffffff] pl-3 md:pl-10 pr-.5 pt-5 pb-5 hover:cursor-pointer"  onClick={onclickSocials}><MdShare size="20px"></MdShare></p>
+            <p class="text-[#ffffff] pl-1 pr-1  pt-6 pb-6 text-xs hover:cursor-pointer" onClick={onclickHobbies}>Hobbies</p>
+            <p class="text-[#ffffff] pl-3 md:pl-10 pr-.5 pt-5 pb-5 hover:cursor-pointer" onClick={onclickHobbies}><MdBuild size="20px"></MdBuild></p>
+            <p class="text-[#ffffff] pl-1 pr-1 pt-6 pb-6 text-xs hover:cursor-pointer" onClick={onclickHome}>Home</p> 
+            <p class="text-[#ffffff] pl-3 md:pl-10 pr-.5 pt-5 pb-5 hover:cursor-pointer" onClick={onclickHome}><MdHome size="20px"></MdHome></p>
     </div>
   );
 }

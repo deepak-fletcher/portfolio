@@ -5,7 +5,7 @@ import Aos from 'aos';
 import "../stylesheet/skills.css";
 import java from '../assets/java.png';
 import c from '../assets/c.png';
-import "aos/dist/aos.css"
+import "aos/dist/aos.css";
 import react from '../assets/react.png';
 import springboot from '../assets/springboot.png';
 import html from '../assets/html.png';
@@ -24,11 +24,11 @@ let description = {
   c : "I have experience working on basic programming using C.",
   react :"I have worked with ReactJS on numerous projects like hotel management system, portfolio app, todo app, virtualq etc. I have experience with working with react for close to a year and have done multiple personal projects using the framework.",
   springboot :"I have worked on a few projects backend using spring boot.",
-  html : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-  css : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-  sql : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-  mongodb : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-  nodejs : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+  html : "I have worked on a few of websites using HTML.",
+  css : "I have worked on a lot of designs using CSS.",
+  sql : "I have worked on SQL for over a year at cognizant and alsohave previous experince with SQL based on personal projects.",
+  mongodb : "I have recently started working with mongoDB as a backend nosql database and have experince doing the basics with mongodb.",
+  nodejs : "I have recently started working with nodejs and have experience with doing all the basic crud operations using nodejs, currently working on some personal projects using ReactJS, MongoDb and NodeJS."
 }
 export const Skills = () => {
   const [header, setHeader] = useState('')
