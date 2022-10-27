@@ -1,6 +1,5 @@
 import React from 'react'
 import {Carousel} from '3d-react-carousal';
-import "../stylesheet/hobbies.css" 
 import "../stylesheet/gaming.css";
 import photography from '../assets/photography.png'
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import SimpleImageSlider from "react-simple-image-slider";
 import Gaming from './Gaming';
-import Photograohy from './Photograohy';
+import Photography from './Photography';
 
 const Hobbies = () => {
   return (
@@ -10,7 +10,7 @@ const Hobbies = () => {
           This page is under development
         </div> */}
         {/* <p class="text-white  text-2xl mt-[100px]">Hobbies coming soon</p> */}
-        <Photograohy></Photograohy>
+        <Photography></Photography>
     </div>
   )
 }
