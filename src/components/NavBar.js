@@ -23,7 +23,7 @@ const NavBar = () => {
     navigate("/socials")
   }
   return (
-    <div className="navbar" class="h-16 bg-[#000000] fixed w-full z-10 top-0 flex flex-row-reverse overflow-auto">
+    <div className="navbar" class="h-16 bg-[#000000] fixed w-screen z-10 top-0 flex flex-row-reverse overflow-x-hidden">
             <p class="text-[#ffffff] pl-1 pr-1  pt-6 pb-6 mr-5 text-xs hover:cursor-pointer" onClick={onclickSocials}>Socials</p>
             <p class="text-[#ffffff] pl-3 md:pl-10 pr-.5 pt-5 pb-5 hover:cursor-pointer"  onClick={onclickSocials}><MdShare size="20px"></MdShare></p>
             <p class="text-[#ffffff] pl-1 pr-1  pt-6 pb-6 text-xs hover:cursor-pointer" onClick={onclickHobbies}>Hobbies</p>

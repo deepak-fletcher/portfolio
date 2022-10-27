@@ -1,16 +1,16 @@
 import React from 'react';
 import SimpleImageSlider from "react-simple-image-slider";
 import Gaming from './Gaming';
-import Gamingrig from '../assets/hobby3.jpg'
+import Photograohy from './Photograohy';
 
 const Hobbies = () => {
   return (
     <div class=" w-full">
-        <div class="mt-16 text-white fomt-xxl w-full h-400px">
+        {/* <div class="mt-16 text-white fomt-xxl w-full h-400px">
           This page is under development
-        </div>
+        </div> */}
         {/* <p class="text-white  text-2xl mt-[100px]">Hobbies coming soon</p> */}
-        <Gaming></Gaming>
+        <Photograohy></Photograohy>
     </div>
   )
 }
